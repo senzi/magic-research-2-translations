@@ -5,6 +5,7 @@ This repository is meant to be used as a way to organize crowd-translations of t
 ## Translation Status And Credits
 
 English (United States): Done (N/A, original language)
+Portuguese (Brazil): ch1coon
 
 ## Magic Research 2 Translation Guide
 
