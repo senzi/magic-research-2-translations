@@ -1,5 +1,11 @@
 # Magic Research 2 Public Translation Project
 
+**Note: This has moved to Localizor: [https://www.localizor.com/magic-research-2/](https://www.localizor.com/magic-research-2/) - please contribute there instead! The information here might be out of date.**
+
+--------------
+
+# Legacy Documentation
+
 This repository is meant to be used as a way to organize crowd-translations of the game Magic Research 2. Please read on to find out how to contribute!
 
 ## Translation Status And Credits
