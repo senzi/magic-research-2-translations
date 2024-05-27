@@ -6,6 +6,7 @@ This repository is meant to be used as a way to organize crowd-translations of t
 
 * English (United States): Done (N/A, original language)
 * Portuguese (Brazil): ch1coon (In progress)
+* Chinese (Simplified): QihangL (In progress)
 
 ## Magic Research 2 Translation Guide
 
