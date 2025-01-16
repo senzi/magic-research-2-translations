@@ -1,10 +1,4 @@
 {
-  "metadata": {
-    "timestamp": "2025-01-16T19:26:52.364488",
-    "total_items": 4646,
-    "errors": 0
-  },
-  "translations": {
     "\n": "\n",
     "\n      \nAdditionally, in this retirement, you have completed the following Storylines, which will be fully activated after retirement:\n    \n{{storylineList}}": "\n      \n此外，在这次退休中，您已完成以下故事线，这些故事线将在退休后完全激活：\n    \n{{storylineList}}",
     " (A x{{amount}})": " (A x{{amount}})",
@@ -4651,6 +4645,4 @@
     "{{wizardAmount}} Wizards": "{{wizardAmount}} 巫师",
     "{{wiz}} wizard": "{{wiz}} 巫师",
     "{{wiz}} wizards": "{{wiz}} 巫师"
-  },
-  "errors": []
 }
