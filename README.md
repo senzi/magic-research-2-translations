@@ -56,3 +56,40 @@ There is a channel in the official [Magic Research Discord server](https://disco
 ## Questions, Suggestions, Etc.
 
 Note from developer: It is my first time trying to build a translatable game from scratch, so chances are there are many, many things we could improve about this, especially in terms of process. There are also likely other elements in the app that will need attention for some locales: things like RTL, number formatting, etc. I am open to suggestions on how best to work. The best way to reach me is likely through Discord as mentioned above, in "How to Contribute".
+
+## 翻译脚本使用说明
+
+本仓库提供了一个基于OpenAI API的自动翻译脚本（`main.py`），可以帮助翻译者快速生成初步的中文翻译版本。
+
+### 环境要求
+
+- Python 3.6+
+- OpenAI API密钥
+- 必要的Python包（在requirements.txt中列出）
+
+### 配置说明
+
+1. 复制`.env.example`文件并重命名为`.env`
+2. 在`.env`文件中设置以下环境变量：
+   - `OPENAI_API_KEY`：您的OpenAI API密钥
+   - `OPENAI_API_BASE`：API基础URL（可选，默认使用OpenAI官方API）
+   - `OPENAI_MODEL`：使用的模型名称（可选，默认使用gpt-3.5-turbo）
+
+### 使用方法
+
+1. 确保`base-translations.json`文件在当前目录
+2. 运行脚本：
+   ```bash
+   python main.py
+   ```
+3. 脚本会自动处理翻译并生成`zh-translations.json`文件
+
+### 脚本特性
+
+- 批量处理：每次处理10个文本条目
+- 保持格式：自动保留所有特殊标记（变量、Markdown格式等）
+- 错误处理：记录详细的错误信息
+- 进度日志：显示实时处理进度
+- 元数据记录：在输出文件中包含处理时间戳和统计信息
+
+注意：此脚本生成的翻译仅供参考，建议人工审核和优化翻译结果以确保质量。
